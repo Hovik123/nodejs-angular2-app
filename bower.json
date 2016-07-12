@@ -1,0 +1,21 @@
+{
+  "name": "application-name",
+  "description": "",
+  "main": "",
+  "authors": [
+    "hovhannnes <hovhannespost@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "Materialize": "materialize#^0.97.6"
+  }
+}

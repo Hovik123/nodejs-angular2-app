@@ -1,0 +1,19 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "concat": "0.0.1-security",
+    "ejs": ">= 0.0.1",
+    "express": "2.5.8",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-express": "^0.3.5",
+    "gulp-uglify": "^1.5.4",
+    "mongode": "^0.1.6",
+    "mongoose": "^4.5.3"
+  },
+  "scripts": {
+    "build": "sudo rm -R public/assets && sudo gulp && node app.js"
+  }
+}
